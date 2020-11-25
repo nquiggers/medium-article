@@ -1,0 +1,86 @@
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  height: 500px;
+  color: white;
+  padding: 120px, 0;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.banner p {
+  opacity: 0.8;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  text-align: center;
+  padding: 180px 90px;
+  margin: 0 auto;
+}
+
+.text {
+  width: 700px;
+  padding: 36px 90px;
+  margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+}
+
+h2, h3 {
+  font-size: 27px;
+  text-align: left;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  font-style: italic
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
